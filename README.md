@@ -1,3 +1,9 @@
+## 踩坑日記
+
+1. **AttributeError: module 'ffmpeg' has no attribute 'probe'**: try to install `ffmpeg-python==0.2.0`
+2. **encounter some problem like **Build wheel for XXX...**: make sure you already install cmake, make, gcc
+
+
 # VHAP: Versatile Head Alignment with Adaptive Appearance Priors
 
 <div align="center"> 
