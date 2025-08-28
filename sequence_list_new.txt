@@ -1,0 +1,15 @@
+EMO-1-shout+laugh
+EMO-2-surprise+fear
+EMO-3-angry+sad
+EMO-4-disgust+happy
+EXP-2-eyes
+EXP-3-cheeks+nose
+EXP-4-lips
+EXP-5-mouth
+EXP-8-jaw-1
+EXP-9-jaw-2
+FREE
+SEN-01-cramp_small_danger
+SEN-02-same_phrase_thirty_times
+SEN-03-pluck_bright_rose
+
