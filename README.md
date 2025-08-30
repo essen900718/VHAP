@@ -1,8 +1,9 @@
 ## 踩坑日記
 
-1. **AttributeError: module 'ffmpeg' has no attribute 'probe'**: try to install `ffmpeg-python==0.2.0`
-2. encounter some problem like **Build wheel for XXX...**: make sure you already install cmake, make, gcc
-3. some issue about item['camera_id']: try the `preprocess_video_v2.py`, and make sure your dataset was organized in the [following order](dataset_order.md) (`preprocess_video_v2.py` make some modification to all **background_folder: Path=Path('../../../BACKGROUND')** 
+1. **FileNotFoundError: [Errno 2] No such file or directory: 'ffprobe'**: try to do conda install -c conda-forge ffmpeg
+2. **AttributeError: module 'ffmpeg' has no attribute 'probe'**: try to install `ffmpeg-python==0.2.0`
+3. encounter some problem like **Build wheel for XXX...**: make sure you already install cmake, make, gcc
+4. some issue about item['camera_id']: try the `preprocess_video_v2.py`, and make sure your dataset was organized in the [following order](dataset_order.md) (`preprocess_video_v2.py` make some modification to all **background_folder: Path=Path('../../../BACKGROUND')** 
 
 
 # VHAP: Versatile Head Alignment with Adaptive Appearance Priors
